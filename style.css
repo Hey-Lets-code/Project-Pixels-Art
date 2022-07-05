@@ -32,15 +32,15 @@ body {
 }
 
 #yellow {
-  background-color: rgb(235, 232, 81);
+  background-color: yellow;
 }
 
 #green {
-  background-color: rgb(136, 255, 0);
+  background-color: green;
 }
 
 #blue {
-  background-color: rgb(4, 176, 255);
+  background-color: blue;
 }
 
 #pixel-board {
@@ -61,6 +61,6 @@ body {
 }
 
 #color-palette {
-  width: 100px;
-  height: 100px;
+  width: 180px;
+  height: 50px;
 }
