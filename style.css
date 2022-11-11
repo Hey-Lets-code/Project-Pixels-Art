@@ -10,11 +10,27 @@ body {
 }
 
 body {
-  background-color: white;
+  /* background-color: rgb(230, 189, 196); */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(original.gif);
+}
+
+h1 {
+  margin: 20px;
+  padding: 15px;
+  color: rgb(49, 48, 48);
+  border: 3px solid rgb(230, 222, 222);
+  border-radius: 15px 15px;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
+  text-decoration: solid;
+  /* background-color: rgb(230, 222, 222); */
+  background-color: lightgray;
+  font-family: 'Press Start 2P', cursive;
+  font-size: medium;
 }
 
 .color {
@@ -29,38 +45,86 @@ body {
   display: inline-block;
   inline-size: 40px;
   block-size: 40px;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
 }
 
 #yellow {
-  background-color: yellow;
+  background-color: #f30976a8;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
+
 }
 
 #green {
-  background-color: green;
+  background-color: #4e27fa;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
+ 
 }
 
 #blue {
-  background-color: blue;
+  background-color: #ec850f;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
+
 }
 
 #pixel-board {
   height: 200px;
   width: 200px;
-  border-radius: 3px;
+  border-radius: 15px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   padding: 3px;
+ background-color: lightgray;
 }
 
 .pixel {
   background-color: white;
-  border: 1px solid black;
   width: 40px;
   height: 40px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
 }
 
 #color-palette {
-  width: 180px;
-  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px lightgrey ;
+  background-color: lightgray;
+  border: 5px solid lightgray;
+  border: 3px solid rgb(230, 222, 222);
+  border-radius: 15px 15px;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
+  text-decoration: solid;
+  
+}
+
+#clear-board {
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid rgb(230, 222, 222);
+  border-radius: 15px 15px;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(49, 48, 48);
+  font-size: small;
+  border: 3px solid rgb(230, 222, 222);
+  border-radius: 15px 15px;
+  box-shadow: 5px 5px 5px lightgrey ;
+  border: 3px solid rgb(230, 222, 222);
+  text-decoration: solid;
 }
